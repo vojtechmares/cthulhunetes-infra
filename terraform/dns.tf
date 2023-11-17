@@ -1,6 +1,6 @@
 resource "cloudflare_zone" "cthulhunetes" {
   account_id = "f24333bb3c47d6db753e57e2a0c90082"
-  zone = "cthulunetes.net"
+  zone = "cthulhunetes.net"
 }
 
 resource "cloudflare_zone_dnssec" "cthulhunetes" {
